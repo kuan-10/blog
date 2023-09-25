@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@types/jquery": "^3.5.19",
+    "@vueuse/core": "^4.9.0",
     "axios": "^1.5.0",
     "element-plus": "^2.3.14",
     "jquery": "^3.7.1",
+    "pinia": "^2.1.6",
+    "shokax-cli": "^0.0.7",
     "vue": "^3.3.4",
     "vue-router": "4"
   },
