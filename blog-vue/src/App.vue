@@ -10,6 +10,7 @@ const route=useRoute()
    <router-view v-slot="{Component}">
   <component :is="Component"></component>
   </router-view>
+  <Waves></Waves>
   </div>
   
 </template>

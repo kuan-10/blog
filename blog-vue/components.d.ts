@@ -11,8 +11,10 @@ declare module 'vue' {
     Footer: typeof import('./src/components/Footer/index.vue')['default']
     Friend: typeof import('./src/components/Friend/index.vue')['default']
     Header: typeof import('./src/components/Header/index.vue')['default']
+    Image: typeof import('./src/components/Image/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Util: typeof import('./src/components/util/index.vue')['default']
+    Waves: typeof import('./src/components/Waves/index.vue')['default']
   }
 }
