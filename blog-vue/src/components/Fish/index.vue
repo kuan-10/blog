@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import $ from "jquery";
-import {onMounted,} from 'vue'
+import {onMounted} from 'vue'
 const fish=()=> {
       let RENDERER = {
         POINT_INTERVAL: 5,
@@ -404,8 +404,40 @@ const fish=()=> {
 onMounted(()=>{
   fish()
 })
+
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.fish {
+  position: relative;
+  color: #eee;
+  font-size: 14px;
+  /* background: linear-gradient(
+    90deg,
+    rgba(247, 149, 51, 0.1),
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1)
+  ); */
+}
+.first {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.second {
+  color: #eee;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+.second:hover {
+  color: #24c6dc !important;
+}
 </style>
